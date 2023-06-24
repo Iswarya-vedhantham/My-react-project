@@ -1,0 +1,126 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+}
+.user-details {
+  margin-left: 10px;
+}
+.chat-container {
+  width: 400px;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size:medium
+}
+
+.message-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.like-button:focus {
+  outline: none;
+}
+
+.message-content {
+  word-break: break-word;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.message-input {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.send-button {
+  background-color: #4bc0c0;
+}
+
+/* Add additional styles for the profile logo background color */
+.profile-logo.alan {
+  background-color: #ff6384;
+}
+
+.profile-logo.bob {
+  background-color: #36a2eb;
+}
+
+.profile-logo.carol {
+  background-color: #ffcd56;
+}
+
+.profile-logo.dean {
+  background-color: #4bc0c0;
+}
+
+.profile-logo.elin {
+  background-color: #9966ff;
+}
+.message-content {
+  background-color: #f2f2f2; /* Set the desired background color for the message box */
+  padding: 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.profile-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: transparent; /* Set the background color of the profile logo */
+  color: #000; /* Set the color of the profile logo text */
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 12px;
+  color: #888888; /* Set the color of the time */
+}
